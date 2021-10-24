@@ -7,7 +7,6 @@ import DeliveryFee from './components/deliveryfee/DeliveryFee'
 import './App.scss'
 import Footer from './components/footer/Footer'
 
-
   /*
   calculateDeliveryFee calcualtes the delivery fee 
   based on different conditons
