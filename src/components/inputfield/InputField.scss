@@ -1,0 +1,38 @@
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  font-weight: 600;
+
+  label {
+    font-weight: 300;
+    display: flex;
+    ;
+    flex: 2;
+    font-size: 18px;
+  }
+
+  input {
+    flex: 6;
+    padding: 10px;
+    color: #009de0;
+    width: 100% !important;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 4px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.75s ease;
+    &:focus,
+    &:hover {
+      border: 2px solid #009de0;
+    }
+  }
+
+  small {
+    margin-left: 10px;
+    flex: 2;
+
+  }
+
+}

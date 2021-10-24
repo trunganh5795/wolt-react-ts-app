@@ -1,0 +1,22 @@
+.button-wrapper {
+  width: 300px;
+  display: flex;
+  margin: 5px 0;
+  flex-direction: column;
+
+  button {
+    flex: 2;
+    border: 1px solid #009de0;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px 1px #009de0;
+    background-color: white;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    &:hover {
+        box-shadow: 4px 4px 2px 2px #009de0;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.Footer {
+    border-top: 2px solid rgba(0, 157, 224, 0.35);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 60px;
+    z-index: 2;
+    margin: 50px 0 0 0;
+    text-align: center;
+    bottom:0;
+  
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    small {
+      font-family: 'Nunito';
+      font-weight: 100;
+    }
+  
+    .copyright {
+      font-weight: 300;
+      color: rgba(0, 157, 224, 1);
+    }
+  
+    a {
+      font-weight:500;
+      text-decoration: none;
+      color: rgba(0, 157, 224, 1);
+      border-bottom: 1px solid rgba(0, 157, 224, 1);
+  
+      &:hover {
+        font-weight: 600;
+      }
+    }
+  }
