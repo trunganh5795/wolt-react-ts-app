@@ -81,7 +81,6 @@ const App = () => {
       const cartValue = +inputData.cartValue
       const deliveryDistance = +inputData.deliveryDistance
       const amount = +inputData.amount
-      console.log(inputData.time)
       const time = new Date(inputData.time)
       let deliveryPrice = calculateDeliveryFee({
           cartValue,
